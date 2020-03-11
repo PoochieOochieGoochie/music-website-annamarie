@@ -1,0 +1,407 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.intro{
+	background-image: url(home.png);
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	padding-top: 19%;
+	padding-bottom: 19%;
+
+}
+.Bio {
+	padding: 50px 0; 
+	font-family: 'Courgette', cursive;
+}
+
+
+.background{
+	background-color:grey;
+	width: 50%;
+	margin: 0 auto;
+	padding: 50px;
+	position: relative;
+}
+.background h2 {
+	color: white;
+	background-color: grey;
+	position: absolute;
+	top: 34px;
+	margin: 0;
+	left: 100px;
+}
+.border {
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-top: 2px solid red;
+	padding:50px 50px 0px 50px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+ul.nav {
+	display: flex;
+	list-style: none;
+	margin: 0 0 0 20px;
+}
+ul.nav li {
+	margin-right: 20px;
+}
+ul.nav li a {
+	color: black;
+	text-decoration: none;
+}
+ul.nav li a:hover {
+	border-bottom: 2px solid white;
+}
+ul.social {
+	display: flex;
+	list-style: none;
+	text-align: right;
+	margin: 0 20px 0 0px;	
+}
+ul.social li {
+	margin-left: 20px;
+}
+.intro {
+	position: relative;
+}
+
+.intro .overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: black;
+	opacity: .3;
+}
+
+.tour {
+	position: relative;
+	background-image: url(tour.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 5%;
+	margin: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tour-date {
+	margin-top: 10%;
+}
+
+.BA{
+
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+
+}
+.dates{
+
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+.ART{
+
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.dates2{
+
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.buy1{
+
+	width: 100px;
+    padding: 10px;
+    margin: 20px;
+    background-color: darkGreen;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 19px;
+    -moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+}
+.buy2{
+
+	width: 100px;
+    padding: 10px;
+    margin: 20px;
+    background-color: darkGreen;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 19px;
+    -moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+}
+.see-more {
+	width: 100%;
+	text-align: center;
+}
+.more{
+
+	width: 200px;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkGreen;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    -moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+
+    
+}
+
+.line1{
+	float:left;
+
+}
+.mendes{
+   color:#F4F4ED;
+   text-align: center;
+   position: relative;
+   z-index: 3;
+   width: 300px;
+   border: 10px solid white;
+   padding: 20px;
+   margin: 20px;
+   background-color: white;
+   color: black;
+   opacity: 0.5;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 25px;
+   font-size: 30px;
+}
+.quote{
+	color: solid black;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Cookie', cursive;
+
+}
+.twitter{
+	
+}
+.handwritten{
+  background-color: lightgrey;
+
+  width: 250px;
+  border: 5px solid grey;
+  padding: 25px;
+  padding-bottom: 150px;
+  margin: 20px;
+  float:left;
+  padding-left: 2%;
+
+}
+.hand-info{
+	position: absolute;
+	top:235%;
+	left: 6%;
+
+
+
+}
+.date-info{
+	position: absolute;
+	top:226%;
+	left: 6%;
+	text-decoration: underline;
+
+}
+.illuminate{
+	background-color: lightgrey;
+	width:250px;
+	border: 5px solid grey;
+    padding: 25px;
+    padding-bottom: 150px;
+    margin: 20px;
+    float:left;
+    padding-left: 2%;
+}
+.date2-info{
+	position: absolute;
+	top:226%;
+	left: 27%;
+	text-decoration: underline;
+}
+.ill-info{
+	position: absolute;
+	top:235%;
+	left: 27%;
+
+}
+
+.mtv{
+	background-color: lightgrey;
+	width:250px;
+	border: 5px solid grey;
+    padding: 25px;
+    padding-bottom: 150px;
+    margin: 20px;
+    float:left;
+    padding-left: 2%;
+}
+.date3-info{
+	position: absolute;
+	top:226%;
+	left: 46%;
+	text-decoration: underline;
+}
+.mtv-info{
+	position: absolute;
+	top:235%;
+	left: 47%;
+}
+.shawnmendes{
+	background-color: lightgrey;
+	width:250px;
+	border: 5px solid grey;
+    padding: 25px;
+    padding-bottom: 150px;
+    margin: 20px;
+    float:left;
+    padding-left: 2%;
+}
+.date4-info{
+	position: absolute;
+	top:226%;
+	left: 67%;
+	text-decoration: underline;
+}
+
+.sm-info{
+	position: absolute;
+	top:235%;
+	left: 68%;
+}
+.Albums{
+	text-decoration:  underline overline;
+	text-align: center;
+
+}
+.alb{
+	text-align: center;
+	font-family: 'Domine', serif;
+
+}
+
+
+
+/*New Albums Section*/
+.albums-new {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+.albums-new h2, .albums-new hr {
+	width: 100%;
+}
+
+.album {
+	width: 24%;
+	border: 2px solid #ccc;
+	background-color: #e0e0e0;
+	padding: 2%;
+}
+.album img{ 
+	width: 100%; 
+}
+
+.album .date {
+	text-decoration: underline;
+}
+.contact{
+	border: 6px lightgrey;
+	width: 60%;
+	margin: 0 auto;
+	padding: 60px;
+	background-color:grey;
+
+}
+.name{
+	position: absolute;
+	left:55%;
+	top:440%;
+	border: 3px solid white;
+	width: 20%;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: white;
+	opacity: 0.7;
+	color:  black;
+
+
+	
+
+}
+.email{
+	position: absolute;
+	left:55%;
+	top:450%;
+	border: 3px solid white;
+	width: 20%;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: white;
+	opacity: 0.7;
+	color:  black;
+
+}
+.updates{
+	position: absolute;
+	left:58%;
+	top:420%;
+	text-decoration: underline overline;
+
+}
+.signup{
+	position: absolute;
+	left:62%;
+	top:470%;
+	border: 3px darkGreen;
+	width: 8%;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: ;
+	text-align: center;
+	background-color: darkGreen;
+	-moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+
+
+}
